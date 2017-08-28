@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package pkg1st;
+
 import javax.swing.*;
 
 /**
@@ -11,6 +12,7 @@ import javax.swing.*;
  * @author student
  */
 public class first extends javax.swing.JFrame {
+
 
     /**
      * Creates new form first
@@ -128,7 +130,9 @@ public class first extends javax.swing.JFrame {
      String user_id=UID.getText();
      String password=PASS.getText();
      
-     if(user_id.equals("nishant")&&password.equals("cce"))
+     
+     
+     if(user_id.equals("admin")&&password.equals("admin"))
      {
          JOptionPane.showMessageDialog(null,"Login successful!!");
          
